@@ -53,7 +53,6 @@ class MainActivity : AppCompatActivity() {
         if(Double.NaN != primerNumero){
             segundoNumero = tvTemp.text.toString().toDouble()
             tvTemp.text=""
-
             when(operacionActual){
                 "+"-> primerNumero =(primerNumero+segundoNumero)
                 "-"-> primerNumero =(primerNumero-segundoNumero)
